@@ -1,6 +1,6 @@
 import React from "react";
 // import Particle from "../Particle";
-import { container, Row, Col, Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
@@ -9,8 +9,8 @@ import Toolstack from "./Toolstack";
 
 function About() {
     return (
-        <Container fluid className='about-section'>
-            {/* <Particle /> */}
+        // <Container fluid className='about-section'>
+        //     <Particle />
             <Container>
                 <Row style={{ justifyContent: 'center', padding: '10px' }}>
                     <Col
@@ -24,7 +24,7 @@ function About() {
                         <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
                             Know Who <strong className='purple'>I'M</strong>
                         </h1>
-                        <Aboutcard />
+                        <AboutCard />
                     </Col>
                     <Col
                         md={5}
@@ -48,7 +48,7 @@ function About() {
                 <Github />
 
             </Container>
-        </ Container>
+        // </ Container>
     )
 }
 

@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
@@ -48,7 +47,7 @@ function NavBar() {
                     <span></span>
                     <span></span>
                 </Navbar.Toggle>
-                <Nav.Item.Collapse id='responsive-navbar-nav'>
+                <Nav.Collapse id='responsive-navbar-nav'>
                     <Nav className='ml-auto' defaultAvtiveKey='#home'>
                         <Nav.Item>
                             <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
@@ -84,7 +83,7 @@ function NavBar() {
                         </Nav.Item>
 
                     </Nav>
-                </Nav.Item.Collapse>
+                </Nav.Collapse>
             </Container>
         </Navbar>
     )

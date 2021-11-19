@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assests/home-main.svg";
+import homeLogo from "../../Assests/home-main.jpg";
 // import Particle from "../Particle";
-import Home2 from "./Home2";
+import Home2 from "./Introduction";
 import Type from "./Type";
 
 function Home(){
