@@ -24,7 +24,7 @@ function GitHub(){
                 username='Thurstoncox3'
                 blockSize={15}
                 blockMargin={5}
-                theme={ colorTheme }
+                theme={colorTheme}
                 fontSize={16}
                 />
         </Row>

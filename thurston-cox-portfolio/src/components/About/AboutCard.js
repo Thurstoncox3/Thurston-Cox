@@ -10,16 +10,17 @@ function AboutCard() {
                     <p style={{ textAlign: 'justify' }}>
                         Hi, I am <span className='purple'>Thurston Cox from</span> from <span className='purple'> Raleigh, NC.</span>
                         <br /> I am a Full Stack Web Developer, with backgrounds in FinTech and Healthcare sales.
+                        <br />
                         <br /> Apart from coding, some other activities that I love to participate in are:
                     </p>
                     <ul>
-                        <li className='about-activities'>
+                        <li className='about-activity'>
                             <ImPointRight /> Playing Basketball
                         </li>
-                        <li className='about-activities'>
+                        <li className='about-activity'>
                             <ImPointRight /> Traveling as much as possible
                         </li>
-                        <li className='about-activities'>
+                        <li className='about-activity'>
                             <ImPointRight /> Attending concerts
                         </li>
                     </ul>
@@ -27,7 +28,9 @@ function AboutCard() {
                     <p style ={{ 
                         marginBlockEnd: 0,
                         color: 'rgb(155 126 172)'
-                    }}>"Building new things with creativity and user functionality!""{" "}</p>
+                    }}>"Building new things with creativity and user functionality!"{" "}
+                    </p>
+                    <br />
                     <footer className='blockquote-footer'>Thurston</footer>
                 </blockquote>
             </Card.Body>
