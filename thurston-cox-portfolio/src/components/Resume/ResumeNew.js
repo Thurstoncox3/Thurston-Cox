@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assests/bitmoji.png";
+import myImg from "../../Assests/emoji2.PNG";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assests/Thurston-Cox-Resume-(1).pdf";
@@ -11,7 +11,7 @@ function ResumeNew() {
     return (
         <div>
             <Container fluid className='resume-section'>
-                <Row style={{ justifyContent: 'center', position: 'relative', width: 'auto' }}>
+                <Row style={{ justifyContent: 'center', position: 'relative' }}>
                     <Button variant='primary' href={pdf} target='_blank'>
                         <AiOutlineDownload />
                         &nbsp;View Resume

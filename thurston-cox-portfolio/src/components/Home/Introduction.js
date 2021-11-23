@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assests/bitmoji.png";
+import myImg from "../../Assests/emoji1.PNG";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
@@ -17,6 +17,7 @@ function Home2(){
                         <h1 style={{ fontSize:'2.6em' }}>LET ME<span className='purple'> INTRODUCE </span>MYSELF</h1>
                         <p className='home-about-body'>
                             Although my time programming is relatively short, I have fallen in love with it, due to the constant need for adabptabilty.
+                            <br />
                             <br />
                             I love to learn, and to implement what I have learned into a new project. As of now, I am fluent in <b className='purple'>Javascript</b>. However, I am currently studying <b className='purple'>Python and C++</b> , and plan to be just as confident in these languages as well. 
                             <br />
