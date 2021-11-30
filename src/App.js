@@ -12,6 +12,20 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
 
+const express = require ('express');
+const app = express();
+
+const port = process.env.PORT || 3000
+
+app.use(express.static(__dirname + '/src'));
+app.get('/', function(req, res){
+    res.render('index');
+});
+
+app.listen(port, function(){
+    console.log('App Running');
+});
+
 function App() {
   const [load, updateLoad] = useState(true);
 
