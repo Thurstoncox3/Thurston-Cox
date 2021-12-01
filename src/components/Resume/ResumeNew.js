@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assests/emoji2.PNG";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assests/Thurston-Cox-Resume-(1).pdf";
+import pdf from "../../Assests/Thurston-Cox-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 

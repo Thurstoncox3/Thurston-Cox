@@ -1,3 +1,8 @@
+### Links to Portfolio
+ [Link to Deployed Portfolio](https://thurston-cox-portfolio.herokuapp.com/)
+
+[Link to GitHub](https://github.com/Thurstoncox3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
